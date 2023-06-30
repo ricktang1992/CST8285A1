@@ -1,0 +1,87 @@
+/*
+  Assessment: CST8285 Assignment01
+  Class: CST8285 300
+  Student Name: Ziyao Tang (041085557)
+  Due Date: June 25, 2023
+  Lab Section Number: CST8285 301
+  Professor Name: Hala Own, Alemeseged Legesse
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: 150px, 1fr, 150px;
+    grid-template-rows: 100px,1fr,100px;
+    background-color: #f5d6fc;
+    color: #28282B;/*a shade of black*/
+    font-family:Arial,sans-serif;
+    font-size: 16pt;
+}
+
+header,footer{
+    background-color: #d4adff;
+    color: #000000;
+    padding: auto;
+    height: 100px;
+    display: flex;
+}
+header{
+    justify-content: space-between;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+header>h1{
+    align-self:center;
+    margin: auto 50px auto 50px ;
+}
+nav{
+    align-self:flex-start;
+    margin: 20px 50px auto 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+footer{
+    flex-direction: row-reverse;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+main{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding: 20px;
+    height: auto;
+    width: 800px;
+}
+#left{
+    min-width: 150px;
+    min-height: 720px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+#rigth{
+    min-width: 150px;
+    min-height: 720px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+#author{
+    margin: auto 20px auto;
+}
+/*@media only screen and (max-width: 800px) {
+    #left{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    #rigth{
+
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    body {
+        grid-template-columns: 0px, 600px, 0px;
+
+    }
+}*/

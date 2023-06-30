@@ -1,0 +1,24 @@
+/*
+  Assessment: CST8285 Assignment01
+  Class: CST8285 300
+  Student Name: Ziyao Tang (041085557)
+  Due Date: June 25, 2023
+  Lab Section Number: CST8285 301
+  Professor Name: Hala Own, Alemeseged Legesse
+*/
+@import url("layout.css"); /* Using a url */
+
+.important-words{
+  font-weight: bold;
+}
+main>p{
+  margin: 20px auto auto auto;
+  padding: 15px;
+}
+main>img{
+  display: block;
+  width: 600px;
+  margin: auto;
+  padding: 15px;
+}
+
