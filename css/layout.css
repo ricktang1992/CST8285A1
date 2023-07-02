@@ -12,8 +12,8 @@
 }
 body {
     display: grid;
-    grid-template-columns: 150px, 1fr, 150px;
-    grid-template-rows: 100px,1fr,100px;
+    grid-template-columns: 150px  1fr  150px;
+    grid-template-rows: 100px 1fr 100px;
     background-color: #f5d6fc;
     color: #28282B;/*a shade of black*/
     font-family:Arial,sans-serif;
@@ -23,7 +23,7 @@ body {
 header,footer{
     background-color: #d4adff;
     color: #000000;
-    padding: auto;
+    padding: 10px;
     height: 100px;
     display: flex;
 }
@@ -54,6 +54,7 @@ main{
     padding: 20px;
     height: auto;
     width: 800px;
+    margin: auto;
 }
 #left{
     min-width: 150px;
@@ -70,18 +71,3 @@ main{
 #author{
     margin: auto 20px auto;
 }
-/*@media only screen and (max-width: 800px) {
-    #left{
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-    #rigth{
-
-        grid-row: 2/3;
-        grid-column: 3/4;
-    }
-    body {
-        grid-template-columns: 0px, 600px, 0px;
-
-    }
-}*/
