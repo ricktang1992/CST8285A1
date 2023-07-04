@@ -11,14 +11,15 @@
 .important-words{
   font-weight: bold;
 }
-main>p{
-  margin: 20px auto auto auto;
+main>h2,p{
+  margin: 10px auto auto auto;
   padding: 15px;
 }
 main>img{
   display: block;
   width: 600px;
-  margin: auto;
+  margin: 20px auto 0px;
   padding: 15px;
+  border-radius: 25pt;
 }
 
